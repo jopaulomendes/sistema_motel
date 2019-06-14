@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UsuarioDAOTest" project="Financeiro" tests="2" started="2" failures="0" errors="0" ignored="1">
+  <testsuite name="br.com.financeiro.dao.UsuarioDAOTest" time="2.033">
+    <testcase name="salvar" classname="br.com.financeiro.dao.UsuarioDAOTest" time="2.03"/>
+    <testcase name="autenticar" classname="br.com.financeiro.dao.UsuarioDAOTest" time="0.002" ignored="true"/>
+  </testsuite>
+</testrun>

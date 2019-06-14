@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.2.final using JasperReports Library version 6.2.2  -->
+<!-- 2016-06-22T19:39:15 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="produto" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5901d4fd-fde3-4116-b64e-f5e963c3e94d">
+	<property name="com.jaspersoft.studio.data.sql.tables" value="ZmluYW5jZWlyby5wcm9kdXRvIEFTICw5MSw0NyxkODAwMjZhNy0zNGE1LTQzZWMtYTRjZC0xNjgw&#xA;NGUyZDhjM2Y7ZmluYW5jZWlyby5mb3JuZWNlZG9yIEFTICwzNzcsNDUsZmRkNzNhZDAtNzgzNS00&#xA;Y2JmLTg4NjktZWRkNjRhZTIzNmZlOw=="/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Financeiro Data Adapter"/>
+	<queryString>
+		<![CDATA[SELECT financeiro.produto.descricao AS pdescricao,
+	financeiro.produto.preco,
+	financeiro.produto.quantidade,
+	financeiro.fornecedor.descricao AS pfornecedor
+FROM financeiro.produto
+	INNER JOIN financeiro.fornecedor ON 
+	 financeiro.produto.fornecedor_codigo = financeiro.fornecedor.codigo]]>
+	</queryString>
+	<field name="pdescricao" class="java.lang.String"/>
+	<field name="preco" class="java.math.BigDecimal"/>
+	<field name="quantidade" class="java.lang.Integer"/>
+	<field name="pfornecedor" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,32 @@
+
+jun 27, 2016 11:37:50.15 NEW SESSION
+jun 27, 2016 11:37:50.15 *************************
+jun 27, 2016 11:37:50.15 A coding exception was thrown in a Promise resolution callback.
+jun 27, 2016 11:37:50.16 See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+jun 27, 2016 11:37:50.16 
+jun 27, 2016 11:37:50.16 Full message: TypeError: Log.repository is undefined
+jun 27, 2016 11:37:50.16 Full stack: @chrome://browser/content/browser-syncui.js:490:3
+jun 27, 2016 11:37:50.16 XPCU_defineLazyGetter/<.get@resource://gre/modules/XPCOMUtils.jsm:198:21
+jun 27, 2016 11:37:50.16 gSyncUI._loginFailed@chrome://browser/content/browser-syncui.js:138:7
+jun 27, 2016 11:37:50.16 _promiseUpdateUI/<@chrome://browser/content/browser-syncui.js:156:25
+jun 27, 2016 11:37:50.16 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:933:23
+jun 27, 2016 11:37:50.16 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:7
+jun 27, 2016 11:37:50.16 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:11
+jun 27, 2016 11:37:50.16 
+jun 27, 2016 11:37:50.16 *************************
+jun 27, 2016 11:37:50.16 *************************
+jun 27, 2016 11:37:50.16 A coding exception was thrown in a Promise rejection callback.
+jun 27, 2016 11:37:50.16 See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+jun 27, 2016 11:37:50.16 
+jun 27, 2016 11:37:50.16 Full message: TypeError: this.log is undefined
+jun 27, 2016 11:37:50.16 Full stack: updateUI/<@chrome://browser/content/browser-syncui.js:149:7
+jun 27, 2016 11:37:50.16 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:936:21
+jun 27, 2016 11:37:50.16 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:7
+jun 27, 2016 11:37:50.16 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:11
+jun 27, 2016 11:37:50.16 
+jun 27, 2016 11:37:50.16 *************************
+jun 27, 2016 11:49:44.41 1467038984394	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+jun 27, 2016 11:49:45.57 1467038985554	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+jun 27, 2016 11:49:45.81 1467038985800	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+jun 27, 2016 11:49:45.99 1467038985981	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+jun 27, 2016 11:49:46.26 1467038986247	addons.update-checker	WARN	Update manifest for @E9438230-A7DF-4D1F-8F2D-CA1D0F0F7924 did not contain an updates property
